@@ -1,0 +1,74 @@
+{
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": {
+                "id": "terminal-cmd"
+            }
+        },
+        "Git Bash": {
+            "path": "C:\\Program Files\\Git\\bin\\bash.exe",
+            "args": [
+                "--login",
+                "-i"
+            ]
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "files.autoSave": "afterDelay",
+    "emmet.includeLanguages": {
+        "edge": "html"
+    },
+    "editor.foldingImportsByDefault": true,
+    "javascript.preferences.organizeImports": {
+        "organizeImportsOnFormat": true,
+        "organizeImportsOnSave": true
+    },
+    "typescript.preferences.organizeImports": {
+        "organizeImportsOnFormat": true,
+        "organizeImportsOnSave": true
+    },
+    "notebook.codeActionsOnSave": {
+        "source.organizeImports": "explicit",
+        "source.sortImports": "explicit",
+        "source.removeUnusedImports": "explicit"
+    },
+    "editor.codeActionsOnSave": {
+        "source.addMissingImports": "explicit",
+        "source.organizeImports": "explicit",
+        "source.sortImports": "explicit",
+        "source.removeUnusedImports": "explicit"
+    },
+    "vs-kubernetes": {
+        "vscode-kubernetes.helm-path-windows": "C:\\Users\\USER\\.vs-kubernetes\\tools\\helm\\windows-amd64\\helm.exe",
+        "vscode-kubernetes.minikube-path-windows": "C:\\Users\\USER\\.vs-kubernetes\\tools\\minikube\\windows-amd64\\minikube.exe"
+    },
+    "editor.formatOnSave": true,
+
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[edge]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+}
